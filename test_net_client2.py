@@ -2,7 +2,7 @@ import socket
 import sys
 
 HOST = None
-PORT = 888
+PORT = 80
 s = None
 
 for res in socket.getaddrinfo(HOST, PORT, socket.AF_UNSPEC,
