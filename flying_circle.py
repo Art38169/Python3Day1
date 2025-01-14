@@ -26,9 +26,9 @@ window_height = 500
 N = 10
 circles = []
 for i in range(N):
-    circles.append(Circle(random.randint(1, 20), 
-                          random.randint(1, 100), 
-                          random.randint(1, 100), 
+    circles.append(Circle(random.randint(5, 20), 
+                          random.randint(1, 500), 
+                          random.randint(1, 500), 
                           random.randint(1, 10), 
                           random.randint(1, 10)))
     
